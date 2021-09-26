@@ -433,7 +433,7 @@ section {
   padding: 5px 0;
 }
 .clients img {
-  width: 40%;
+  width: 60%;
   filter: grayscale(100);
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -441,7 +441,7 @@ section {
 }
 .clients img:hover {
   filter: none;
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
 
 /*--------------------------------------------------------------

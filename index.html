@@ -24,9 +24,12 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/slider.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
   <!-- =======================================================
   * Template Name: Bethany - v4.5.0
@@ -52,13 +55,13 @@
           <ul>
             <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
             <li><a class="nav-link scrollto" href="about-us.html">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <li><a class="nav-link scrollto" href="#services">Careers</a></li>
+            <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
+            <li class="dropdown"><a ><span>Our Brands</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <li><a href="#">Philips</a></li>
+                <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                   <ul>
                     <li><a href="#">Deep Drop Down 1</a></li>
                     <li><a href="#">Deep Drop Down 2</a></li>
@@ -66,10 +69,13 @@
                     <li><a href="#">Deep Drop Down 4</a></li>
                     <li><a href="#">Deep Drop Down 5</a></li>
                   </ul>
-                </li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
+                </li> -->
+                <li><a href="#">Tridonic</a></li>
+                <li><a href="#">Osram</a></li>
+                <li><a href="#">Genwec</a></li>
+                <li><a href="#">Ledvance</a></li>
+                <li><a href="#">Palazzoll</a></li>
+                <li><a href="#">Bell Lighting</a></li>
               </ul>
             </li>
             <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
@@ -95,38 +101,55 @@
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
-      <div class="container">
+      <div class="container font-weight-bold">
 
-        <div class="row">
+        <div class="customer-logos slider">
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          <div class="col-lg-2 col-md-4 col-12 d-flex slide align-items-center" data-aos="zoom-in" data-aos-delay="100">
+            <a href="#"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></a>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          <div class="col-lg-2 col-md-4 col-12 d-flex slide align-items-center" data-aos="zoom-in" data-aos-delay="200">
+            <a href="#"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></a>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          <div class="col-lg-2 col-md-4 col-12 d-flex slide align-items-center" data-aos="zoom-in" data-aos-delay="300">
+            <a href="#"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></a>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          <div class="col-lg-2 col-md-4 col-12 d-flex slide align-items-center" data-aos="zoom-in" data-aos-delay="400">
+            <a href="#"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></a>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+          <div class="col-lg-2 col-md-4 col-12 d-flex slide align-items-center" data-aos="zoom-in" data-aos-delay="500">
+            <a href="#"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></a>
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+          <div class="col-lg-2 col-md-4 col-12 d-flex slide align-items-center" data-aos="zoom-in" data-aos-delay="600">
+            <a href="#"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></a>
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-12 d-flex slide align-items-center" data-aos="zoom-in" data-aos-delay="600">
+            <a href="#"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></a>
           </div>
 
         </div>
 
       </div>
     </section><!-- End Clients Section -->
+    <!-- <div class="container font-weight-bold">
+      <h2 class="text-center font-weight-bold">Our  Partners</h2>
+       <section class="customer-logos slider">
+          <div class="slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+          <div class="slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+          <div class="slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+          <div class="slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+          <div class="slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+          <div class="slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+          <div class="slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+          <div class="slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>                  
+       </section>
+    </div> -->
 
     <!-- ======= About Section ======= -->
     <!-- <section id="about" class="about">
@@ -772,6 +795,34 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script>
+
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover: false,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 4
+                }
+            }, {
+                breakpoint: 520,
+                settings: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+    
+</script>
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
